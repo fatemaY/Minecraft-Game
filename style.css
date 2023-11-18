@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+}
+
+
+/*
+div {
+    border: 2px solid black;
+}
+
+landing page*/
+.backgrond{
+    background-image: url(./images/minecraftbg.jpg);
+    background-size: contain;
+
+    /* background-image: url(images/bg_landingpage-01.svg); */
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height: 100vh;
+    width: 100VW;
+}
+
+.logo{
+    background-image: url(images/MINECRAFT_LOGO.png);
+    background-size: contain;
+
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height: 50vh;
+    width: 70VW;
+    margin-bottom: 15px;
+}
+
+.flex_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+
+.startbtn{
+    font-size: 20px;
+    font-family: 'Bungee', cursive;
+    margin:5px 0px;
+    height:30px;
+    padding: 1px 15px;
+    margin-top: 15px;
+}
+
+.backgrond h1{
+    text-align: center;
+    color: #C2C2BF;
+}
+
+.hidden {
+    display:block;
+}
+
+
+/*main game*/
+
+.backgrond_game{
+    background-image: url(https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg);
+    /* background-color: white; */
+    width: 100VW;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool , .setTool{
+    width: 4vw;
+    height: 4vw;
+    margin: 0px 5px;
+    background-color: #1D1D1B;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    border:#1D1D1B 1px solid;  
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+
+.active , .tool:hover , .setTool:hover{
+    border:#C2C2BF 1px solid;   
+
+} 
+
+.shoval{
+    background-image: url(images/shoval.png);
+    background-size: contain;
+
+}
+
+.axe{
+    background-image: url(images/axe.png);
+    background-size: contain;
+
+}
+
+.pickaxe{
+    background-image: url(images/pickaxe.png);
+    background-size: contain;
+
+}
+
+.world_divs{
+  
+  width: 80vw;
+  height: 80vh;
+  background-color: #89D2F6;
+}
+
+.world_divs div{
+width: calc(100%/30);
+height:calc(100%/20);
+float: left;
+background-color: #89D2F6;
+}
+
+
+    .world_divs div:hover{
+        background-color: rgb(94, 161, 209);
+   
+        border: 0.2px solid white;
+        }
+
+ .ground{
+    background-image: url(./images/ground.png);
+    background-size: contain;
+
+ }       
+
+ .leaves{
+    background-image: url(./images/leaf.jpg);
+    background-size: contain;
+
+ }       
+
+ .wood{
+    background-image: url(./images/tree.png);
+    background-size: contain;
+
+ }       
+
+ .rock{
+    background-image: url(images/rock.png);
+    background-size: contain;
+
+ }  
+ 
+ .invetory_container .setTool{
+    margin-bottom: 2px;
+ }
+
+ .invetory_container p{
+     text-align:center;
+     font-size: 20px;
+     color: #080808;
+ }
+
+
+ .control{
+    background-color: #f5f5ee; 
+    height: 80%;
+    width: 80px; 
+    border-left:  #f1ebeb 1px solid;
+    border-right:  #f7f1f1 1px solid;
+ }
+
+ .container{
+     display: none;
+ }
+
+.restartbtn{
+    font-size: 15px;
+    font-family: 'Bungee', cursive;
+    /* margin:5px 0px; */
+    height:30px;
+
+
+
+    /* font-size: 11px; */
+    margin: 0px 5px;
+    margin-top: 3px;
+}
+
+.restartbtn:hover{
+    background-color: #1D1D1B; 
+    color: #f5f5f2;
+}
+
+.active{
+    background-color: blue; 
+}
